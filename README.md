@@ -15,14 +15,14 @@ Videos made from this guide are **script first, audio anchored, animated with HT
 **For the user — 3 steps, nothing more:**
 
 1. **Give Muse this repo link** — `https://github.com/CyberNexus-X/muse-video-generation` — or paste the contents of `AGENTS.md` into the chat.
-2. **Answer Muse's questions.** Muse will ask you, in one short message:
+2. **Answer Muse's questions — ek ek karke.** Muse tumse saare sawaal ek saath nahi poochhega. Wo ek sawaal poochhega, tumhare jawab ka wait karega, phir agla sawaal poochhega, is order me:
    - Kis topic par video banani hai?
    - Kaisi video chahiye — reel (vertical, ~30 sec) ya long video (landscape)?
    - Reel hai to comment CTA keyword kya ho? (jaise FAST, QUIZ, EMAIL)
    - Voiceover AI se ho, ya tum apni audio doge?
    - Style koi khaas chahiye, ya Muse choose kare?
    
-   Bas inke jawab do. Process, specs, template, subtitles aur sound ke baare me dobara kuch batane ki zaroorat nahi hai — wo sab is repo me likha hai.
+   Bas ek ek karke jawab do. Process, specs, template, subtitles aur sound ke baare me dobara kuch batane ki zaroorat nahi hai — wo sab is repo me likha hai.
 3. **Script check karo, phir video lo.** Muse pehle script banayega, phir usi script aur tumhari audio ke hisaab se video banayega, aur publish karne se pehle exact video, caption aur account dikhakar tumse approval lega.
 
 **For Muse AI reading this repo:**
@@ -30,9 +30,10 @@ Read `AGENTS.md` first, then `docs/00-ask-first.md`. Do not start a video until 
 
 ## Ask first — the most important rule in this repo
 
-Muse apne aap kisi bhi topic par video **nahi** banayega.
+Muse apne aap kisi bhi topic par video **nahi** banayega, aur saare sawaal ek saath bhi **nahi** poochhega.
 
-- Sirf repo link milne par, ya sirf "video banao" kehne par, Muse rukega aur upar wale sawaal poochhega.
+- Sirf repo link milne par, ya sirf "video banao" kehne par, Muse rukega aur pehle sirf ek sawaal poochhega: kis topic par video banani hai?
+- Tumhare jawab ke baad hi wo agla sawaal poochhega, phir uske baad agla — ek ek karke, har jawab ka wait karke.
 - Topic, video type, CTA aur voiceover user batayega — tabhi video banegi, aur bilkul user ke hisaab se banegi.
 - Sirf tab Muse khud topic choose kar sakta hai, jab user khud kahe "tum hi decide karo / koi bhi topic chalega" — aur tab bhi shuru karne se pehle wo apni choice ek line me batayega.
 - Poora question list aur sample replies: `docs/00-ask-first.md` me hain.
@@ -49,7 +50,7 @@ Both are made as **creative animated videos**, not plain text slides, and not co
 | File | What it tells the AI |
 |---|---|
 | `AGENTS.md` | The master instruction: the exact workflow, defaults, and non-negotiable rules. Read this first. |
-| `docs/00-ask-first.md` | **Ask first:** the questions Muse MUST ask the user (topic, type, CTA, voiceover, style) before any video. Never start on your own topic. |
+| `docs/00-ask-first.md` | **Ask first, one by one:** the questions Muse MUST ask the user (topic, type, CTA, voiceover, style) before any video — exactly one question per message, never all together. Never start on your own topic. |
 | `docs/01-scripting.md` | How to write a script: hook, structure, Hinglish, CTA. |
 | `docs/02-video-types-and-templates.md` | Reel vs long video, and why every video gets its own template. |
 | `docs/03-production-specs.md` | Exact technical specs: size, codec, timing, animation. |
@@ -61,7 +62,7 @@ Both are made as **creative animated videos**, not plain text slides, and not co
 
 ## The workflow in 30 seconds
 
-1. **Ask first, then brief** — Muse asks the user for topic + video type + CTA keyword (if a reel) + voiceover, and waits for the answers. No video starts before this.
+1. **Ask first, one by one, then brief** — Muse asks the user for topic, then video type, then CTA keyword (if a reel), then voiceover — one question at a time, waiting for each answer. No video starts before this.
 2. **Script first** — write and approve the script before any animation.
 3. **Voiceover** — AI voiceover, or a voiceover file supplied by the user. The video timing is anchored to this audio, never the other way round.
 4. **Template matched to the script** — a new, distinct look for each video, not a recoloured shared template.

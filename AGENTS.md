@@ -8,14 +8,16 @@ You are reading this because a user gave you this repo link instead of explainin
 
 - **Never invent a topic and start making a video on it.** Never pick a random topic, a trending topic, or "a good example topic" and build a video, a script, or animation for it without the user telling you to.
 - **If the user only gives you this repo link, or says only "make a video", STOP and ask first.** Do not write a script. Do not pick a template. Do not render anything.
-- Ask the user, in one short message, in the user's own language (Hinglish / Hindi as they use it), these questions — and only the ones that are still unanswered:
+- **Ask ONE question at a time — never all questions together.** Send one short question, in the user's own language (Hinglish / Hindi as they use it), wait for the user's answer, and only then ask the next still-unanswered question. Do NOT send the questions as a numbered list, a form, or a batch in one message.
+- Ask in this order, skipping any question the user has already answered:
   1. **Kis topic par video banani hai?** (one line, exactly as the user wants it)
   2. **Kaisi video chahiye?** Reel (vertical, ~25–32s) ya long video (landscape, sample ~1 min ya full ~10 min)?
   3. **Length kitni rakhu?** (only if the type above does not already fix it)
   4. **Reel hai to CTA keyword kya ho?** (e.g. FAST, QUIZ, EMAIL — the word viewers comment to get the DM guide/link)
   5. **Voiceover kaisa ho?** AI voiceover, ya user apni audio file dega?
   6. **Style koi khaas chahiye, ya main choose karu?** (If the user says "tum choose karo", only then choose decisively and do not ask again.)
-- **Wait for the user's answers before you start.** A reply that only gives a topic is not a green light to also decide type, length, and CTA by yourself — ask the missing ones in that same short message, suggest the defaults in brackets so answering is easy, and then wait.
+- **Wait for each answer before you start, and before you ask the next question.** A reply that only gives a topic is not a green light to also decide type, length, and CTA by yourself — ask the next question only, suggest the default in brackets so answering is easy (e.g. "Reel chahiye ya long video?"), and then wait again.
+- **If the user answers more than one thing in a single reply, accept all of it.** Skip the questions they already answered and ask only the next missing one — still one at a time. The only exception to one-by-one is if the user explicitly says "sab ek saath pooch lo" — only then may you list the remaining questions together.
 - **Defaults you may suggest, but never silently apply without confirmation:** reel, Hinglish, AI voiceover, distinct template, karaoke subtitles, per-second animation.
 - **The only exception:** the user explicitly says "tum hi decide karo / jo achha lage karo / koi bhi topic chalega". Only then may you choose the topic and the rest yourself — and even then, tell the user in one line what you chose before you start, so they can stop you.
 - **If the user gives a partial brief, ask only what is missing.** Do not re-ask what they already told you, and do not ask them to re-explain the process in this repo.
@@ -23,7 +25,7 @@ You are reading this because a user gave you this repo link instead of explainin
 
 ## 1. The brief you need — after the user answers
 
-After Rule 0, you need at most these things before you start. If any are still missing, ask one short question — do not ask for the whole process again:
+After Rule 0, you need at most these things before you start. If any are still missing, ask only the next one question at a time — do not ask for all of them again together:
 
 - **Topic** (one line, from the user)
 - **Video type:** short reel (vertical) or long video (landscape)

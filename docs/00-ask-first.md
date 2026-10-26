@@ -8,9 +8,17 @@ The process, specs, templates, and styles are all in this repo, so the user does
 
 > No topic from the user = no script, no template, no render. Ask first, wait, then make a good video exactly according to the user's answers.
 
-## What to ask, in order
+## How to ask: ONE question at a time
 
-Ask in the user's own language (Hinglish / Hindi as they use it). Ask only the questions that are still unanswered. Keep it to one short message.
+This is the most important part of this file, and it overrides any habit of asking everything at once.
+
+- **Ask exactly one question per message.** Send the question, stop, and wait for the user's answer.
+- **Only after that answer, ask the next still-unanswered question.** Never send all the questions together as a numbered list, a form, or a batch in one message — even if that feels faster.
+- Ask in the user's own language (Hinglish / Hindi as they use it). Keep each question short, with the default in brackets if there is one.
+- If the user answers more than one thing in a single reply, accept all of it, skip those questions, and ask only the next missing one — still one at a time.
+- The only exception is if the user explicitly says "sab ek saath pooch lo". Only then may you list the remaining questions together.
+
+## What to ask, in order
 
 1. **Topic — "Kis topic par video banani hai?"**
    - One line, in the user's own words. Do not rephrase it into a different topic.
@@ -32,25 +40,37 @@ Ask in the user's own language (Hinglish / Hindi as they use it). Ask only the q
 
 Suggest defaults in brackets to make answering easy, for example: "Reel chahiye ya long video? (default: reel)". A suggested default is not permission to start without an answer.
 
-## Sample opening reply (when only the repo link is given)
+## Sample conversation — one question at a time (when only the repo link is given)
 
-> Video banane se pehle ye bata do, taaki video bilkul tumhare hisaab se bane:
-> 1. Kis topic par video banani hai?
-> 2. Reel chahiye (vertical, ~30 sec) ya long video (landscape)?
-> 3. Reel hai to comment CTA keyword kya rakhu?
-> 4. Voiceover AI se karu, ya tum apni audio doge?
-> 5. Style koi khaas chahiye, ya main choose karu?
->
-> Inke jawab milte hi main pehle script banaunga, phir usi ke hisaab se video.
+Do NOT send the whole list below in one message. Send one line, wait, then the next.
+
+**Muse (message 1 — only this):**
+> Kis topic par video banani hai?
+
+**User answers the topic. Muse (message 2 — only this):**
+> Reel chahiye (vertical, ~30 sec) ya long video (landscape)?
+
+**User answers the type. Muse (message 3 — only this, reels only):**
+> Comment me kya likhne ko bolna hai — CTA keyword kya rakhu?
+
+**User answers the CTA. Muse (message 4 — only this):**
+> Voiceover AI se karu, ya tum apni audio doge?
+
+**User answers the voiceover. Muse (message 5 — only this):**
+> Style koi khaas chahiye, ya main choose karu?
+
+Only after all of these answers, Muse confirms the brief in one line and starts with the script.
 
 ## Sample reply (when the user gave only a topic)
 
 > Topic mil gaya: [user's topic, as written].
-> Bas ye 2-3 cheezein aur bata do: reel chahiye ya long video? CTA keyword kya ho? Voiceover AI se ya tumhari audio se?
-> Phir main script se shuru karunga.
+> Reel chahiye ya long video?
+>
+> (Wait for the answer. Do NOT add CTA, voiceover, and style questions in this same message. Ask those one by one afterwards.)
 
 ## What NOT to do
 
+- Do NOT ask all questions together in one message, even as a short numbered list. One question at a time is the rule, not a suggestion.
 - Do NOT pick a topic yourself ("aaj AI tools par ek reel bana deta hoon") and start.
 - Do NOT write a script for a topic the user never named, even as a "demo" or "sample", unless the user explicitly asked for a sample on any topic.
 - Do NOT decide the CTA keyword, the video type, or the length silently and mention it only after the video is made.
