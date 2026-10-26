@@ -1,8 +1,41 @@
 # Muse Video Generation Guide
 
-> **How to use this repo:** Give any Muse AI this repo link, or paste the contents of `AGENTS.md` into the chat. After that, you do NOT need to explain the video-making process in detail again. The AI should follow this repo by default, and only ask you for the things that are genuinely missing: the topic, the video type, and the approval before anything is published.
+## About
 
-This repo is a complete, self-contained guide for making videos the way they are actually made here: **script first, audio anchored, animated with HTML/CSS, verified frame by frame** — not a single AI prompt that magically makes a finished video.
+**Muse Video Generation** is a complete, self-contained guide that teaches any Muse AI how to make good videos the right way — without the user having to explain the whole process again every time.
+
+It covers, in detail: how to write a script, what kinds of videos to make, which template fits which script, the exact technical specs, how karaoke subtitles and sound should work, and how a finished video must be verified before anything is published.
+
+Videos made from this guide are **script first, audio anchored, animated with HTML/CSS, and verified frame by frame** — not a single AI prompt that magically makes a finished video, and not copied content from another creator.
+
+**Important: this repo does NOT make Muse start a video on its own.** Muse must first ask the user what video to make (see "Ask first" below), wait for the answer, and only then make the video according to the user's instructions.
+
+## How to use this repo
+
+**For the user — 3 steps, nothing more:**
+
+1. **Give Muse this repo link** — `https://github.com/CyberNexus-X/muse-video-generation` — or paste the contents of `AGENTS.md` into the chat.
+2. **Answer Muse's questions.** Muse will ask you, in one short message:
+   - Kis topic par video banani hai?
+   - Kaisi video chahiye — reel (vertical, ~30 sec) ya long video (landscape)?
+   - Reel hai to comment CTA keyword kya ho? (jaise FAST, QUIZ, EMAIL)
+   - Voiceover AI se ho, ya tum apni audio doge?
+   - Style koi khaas chahiye, ya Muse choose kare?
+   
+   Bas inke jawab do. Process, specs, template, subtitles aur sound ke baare me dobara kuch batane ki zaroorat nahi hai — wo sab is repo me likha hai.
+3. **Script check karo, phir video lo.** Muse pehle script banayega, phir usi script aur tumhari audio ke hisaab se video banayega, aur publish karne se pehle exact video, caption aur account dikhakar tumse approval lega.
+
+**For Muse AI reading this repo:**
+Read `AGENTS.md` first, then `docs/00-ask-first.md`. Do not start a video until the user has told you the topic and type. Do not invent a topic. After the user answers, follow the workflow in order: script → voiceover → distinct template → per-second animation + karaoke subtitles → sound → verified render → approval before publishing.
+
+## Ask first — the most important rule in this repo
+
+Muse apne aap kisi bhi topic par video **nahi** banayega.
+
+- Sirf repo link milne par, ya sirf "video banao" kehne par, Muse rukega aur upar wale sawaal poochhega.
+- Topic, video type, CTA aur voiceover user batayega — tabhi video banegi, aur bilkul user ke hisaab se banegi.
+- Sirf tab Muse khud topic choose kar sakta hai, jab user khud kahe "tum hi decide karo / koi bhi topic chalega" — aur tab bhi shuru karne se pehle wo apni choice ek line me batayega.
+- Poora question list aur sample replies: `docs/00-ask-first.md` me hain.
 
 ## What kind of videos does this cover?
 
@@ -16,6 +49,7 @@ Both are made as **creative animated videos**, not plain text slides, and not co
 | File | What it tells the AI |
 |---|---|
 | `AGENTS.md` | The master instruction: the exact workflow, defaults, and non-negotiable rules. Read this first. |
+| `docs/00-ask-first.md` | **Ask first:** the questions Muse MUST ask the user (topic, type, CTA, voiceover, style) before any video. Never start on your own topic. |
 | `docs/01-scripting.md` | How to write a script: hook, structure, Hinglish, CTA. |
 | `docs/02-video-types-and-templates.md` | Reel vs long video, and why every video gets its own template. |
 | `docs/03-production-specs.md` | Exact technical specs: size, codec, timing, animation. |
@@ -27,7 +61,7 @@ Both are made as **creative animated videos**, not plain text slides, and not co
 
 ## The workflow in 30 seconds
 
-1. **Brief** — topic + video type + CTA keyword (if a reel).
+1. **Ask first, then brief** — Muse asks the user for topic + video type + CTA keyword (if a reel) + voiceover, and waits for the answers. No video starts before this.
 2. **Script first** — write and approve the script before any animation.
 3. **Voiceover** — AI voiceover, or a voiceover file supplied by the user. The video timing is anchored to this audio, never the other way round.
 4. **Template matched to the script** — a new, distinct look for each video, not a recoloured shared template.
@@ -48,3 +82,11 @@ Both are made as **creative animated videos**, not plain text slides, and not co
 - It does not place links on other people's sites.
 - It does not use copyrighted music, songs, or audio. SFX and music are synthesized or royalty-free only.
 - It does not teach harmful skills. Prevention / awareness topics (for example, scam awareness) stay prevention-only: no instructions, tool names, or steps for doing the harmful thing.
+
+## Tags
+
+Use these tags to find and describe this repo (also suggested as GitHub repo topics):
+
+`muse-ai` · `muse` · `video-generation` · `ai-video` · `instagram-reels` · `youtube-shorts` · `hinglish` · `karaoke-subtitles` · `html-css-animation` · `video-scripting` · `content-creation` · `short-form-video` · `long-form-video` · `ai-tools` · `video-guide` · `ai-agents`
+
+**Topics in one line:** muse-ai, video-generation, instagram-reels, hinglish, karaoke-subtitles, html-css-animation, video-scripting, content-creation.

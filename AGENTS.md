@@ -1,19 +1,36 @@
 # AGENTS.md — Instructions for any Muse AI making a video from this repo
 
-You are reading this because a user gave you this repo link instead of explaining everything again. **Follow this file by default. Do not ask the user to re-explain the process, the style, or the specs that are already written here.** Only ask for what is genuinely missing or undecided.
+You are reading this because a user gave you this repo link instead of explaining everything again. **Follow this file by default. Do not ask the user to re-explain the process, the style, or the specs that are already written here.** Only ask for what is genuinely missing or undecided — and that asking is mandatory, see Rule 0.
 
-## 1. The one-line brief you need
+## 0. ASK FIRST — never start a video on your own topic
 
-Before you start, you need at most these things. If any are missing, ask one short question — do not ask for the whole process again:
+**This rule overrides speed, helpfulness, and defaults. Read it before anything else.**
 
-- **Topic** (one line)
+- **Never invent a topic and start making a video on it.** Never pick a random topic, a trending topic, or "a good example topic" and build a video, a script, or animation for it without the user telling you to.
+- **If the user only gives you this repo link, or says only "make a video", STOP and ask first.** Do not write a script. Do not pick a template. Do not render anything.
+- Ask the user, in one short message, in the user's own language (Hinglish / Hindi as they use it), these questions — and only the ones that are still unanswered:
+  1. **Kis topic par video banani hai?** (one line, exactly as the user wants it)
+  2. **Kaisi video chahiye?** Reel (vertical, ~25–32s) ya long video (landscape, sample ~1 min ya full ~10 min)?
+  3. **Length kitni rakhu?** (only if the type above does not already fix it)
+  4. **Reel hai to CTA keyword kya ho?** (e.g. FAST, QUIZ, EMAIL — the word viewers comment to get the DM guide/link)
+  5. **Voiceover kaisa ho?** AI voiceover, ya user apni audio file dega?
+  6. **Style koi khaas chahiye, ya main choose karu?** (If the user says "tum choose karo", only then choose decisively and do not ask again.)
+- **Wait for the user's answers before you start.** A reply that only gives a topic is not a green light to also decide type, length, and CTA by yourself — ask the missing ones in that same short message, suggest the defaults in brackets so answering is easy, and then wait.
+- **Defaults you may suggest, but never silently apply without confirmation:** reel, Hinglish, AI voiceover, distinct template, karaoke subtitles, per-second animation.
+- **The only exception:** the user explicitly says "tum hi decide karo / jo achha lage karo / koi bhi topic chalega". Only then may you choose the topic and the rest yourself — and even then, tell the user in one line what you chose before you start, so they can stop you.
+- **If the user gives a partial brief, ask only what is missing.** Do not re-ask what they already told you, and do not ask them to re-explain the process in this repo.
+- See `docs/00-ask-first.md` for the exact question list, a sample opening reply, and examples of what NOT to do.
+
+## 1. The brief you need — after the user answers
+
+After Rule 0, you need at most these things before you start. If any are still missing, ask one short question — do not ask for the whole process again:
+
+- **Topic** (one line, from the user)
 - **Video type:** short reel (vertical) or long video (landscape)
 - **Length:** reel ~25–32s, long sample ~1 minute, or full long video (state the length)
 - **CTA keyword** (reels only, e.g. FAST, QUIZ, EMAIL) — this is the word viewers comment to get a DM guide/link
 - **Voiceover:** AI voiceover, or a file supplied by the user
 - **Style, only if the user has a preference.** If they say "you choose", choose decisively and do not ask again.
-
-If the user gives only a topic, assume: reel, Hinglish, AI voiceover, distinct template, karaoke subtitles, per-second animation — and say so in one line so they can correct you.
 
 ## 2. Script first, always
 
@@ -75,6 +92,6 @@ If the user gives only a topic, assume: reel, Hinglish, AI voiceover, distinct t
 
 ## 10. How to start a new video from this repo
 
-Reply in this shape, then start:
+First, follow Rule 0: if the topic or type is not yet given by the user, ask — do not start. Only after the user has answered, reply in this shape, then start:
 
 > Topic, type, and length understood. Script first, then voiceover-anchored animation, distinct template, karaoke subtitles, per-second motion, verified render. Starting with the script now.
