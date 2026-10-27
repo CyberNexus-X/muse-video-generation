@@ -9,13 +9,16 @@ You are reading this because a user gave you this repo link instead of explainin
 - **Never invent a topic and start making a video on it.** Never pick a random topic, a trending topic, or "a good example topic" and build a video, a script, or animation for it without the user telling you to.
 - **If the user only gives you this repo link, or says only "make a video", STOP and ask first.** Do not write a script. Do not pick a template. Do not render anything.
 - **Ask ONE question at a time — never all questions together.** Send one short question, in the user's own language (Hinglish / Hindi as they use it), wait for the user's answer, and only then ask the next still-unanswered question. Do NOT send the questions as a numbered list, a form, or a batch in one message.
-- Ask in this order, skipping any question the user has already answered:
+- Ask in this order, skipping any question the user has already answered. Language is three separate questions, not one combined question:
   1. **Kis topic par video banani hai?** (one line, exactly as the user wants it)
   2. **Kaisi video chahiye?** Reel (vertical, ~25–32s) ya long video (landscape, sample ~1 min ya full ~10 min)?
   3. **Length kitni rakhu?** (only if the type above does not already fix it)
-  4. **Reel hai to CTA keyword kya ho?** (e.g. FAST, QUIZ, EMAIL — the word viewers comment to get the DM guide/link)
-  5. **Voiceover kaisa ho?** AI voiceover, ya user apni audio file dega?
-  6. **Style koi khaas chahiye, ya main choose karu?** (If the user says "tum choose karo", only then choose decisively and do not ask again.)
+  4. **Audio language kya ho?** The spoken voiceover language — e.g. Hinglish, Hindi, English. Ask this as its own question, then wait.
+  5. **Subtitle language kya ho?** The karaoke caption language and script — e.g. Roman Hinglish, Devanagari Hindi, English. Ask this as its own question, then wait. If the user says "same as audio", use the audio language.
+  6. **Video language kya ho?** The on-screen text language — headings, cards, and labels in the video, which may differ from the audio and subtitles. Ask this as its own question, then wait. If the user says "same as subtitle" or "same as audio", use that.
+  7. **Reel hai to CTA keyword kya ho?** (e.g. FAST, QUIZ, EMAIL — the word viewers comment to get the DM guide/link)
+  8. **Voiceover kaisa ho?** AI voiceover, ya user apni audio file dega? (If the user supplies audio, its language must still match the audio language answered above — if it does not, ask, do not silently change it.)
+  9. **Style koi khaas chahiye, ya main choose karu?** (If the user says "tum choose karo", only then choose decisively and do not ask again.)
 - **Wait for each answer before you start, and before you ask the next question.** A reply that only gives a topic is not a green light to also decide type, length, and CTA by yourself — ask the next question only, suggest the default in brackets so answering is easy (e.g. "Reel chahiye ya long video?"), and then wait again.
 - **If the user answers more than one thing in a single reply, accept all of it.** Skip the questions they already answered and ask only the next missing one — still one at a time. The only exception to one-by-one is if the user explicitly says "sab ek saath pooch lo" — only then may you list the remaining questions together.
 - **Defaults you may suggest, but never silently apply without confirmation:** reel, Hinglish, AI voiceover, distinct template, karaoke subtitles, per-second animation.
@@ -30,6 +33,9 @@ After Rule 0, you need at most these things before you start. If any are still m
 - **Topic** (one line, from the user)
 - **Video type:** short reel (vertical) or long video (landscape)
 - **Length:** reel ~25–32s, long sample ~1 minute, or full long video (state the length)
+- **Audio language:** the spoken voiceover language
+- **Subtitle language:** the karaoke caption language and script (Roman Hinglish, Devanagari Hindi, English, etc.)
+- **Video language:** the on-screen headings, cards, and labels language
 - **CTA keyword** (reels only, e.g. FAST, QUIZ, EMAIL) — this is the word viewers comment to get a DM guide/link
 - **Voiceover:** AI voiceover, or a file supplied by the user
 - **Style, only if the user has a preference.** If they say "you choose", choose decisively and do not ask again.
@@ -44,7 +50,9 @@ After Rule 0, you need at most these things before you start. If any are still m
 
 ## 3. Language
 
-- **Reels and most videos: Hinglish.** Hindi in Roman script for the spoken script and on-screen text, unless the user supplies a Devanagari script — then keep Devanagari exactly as supplied.
+- **Languages come from the user's answers in Rule 0, not from a fixed default.** Audio language, subtitle language, and video (on-screen text) language are three separate answers, and they may differ from each other.
+- **Default suggestion, if the user has no preference:** Hinglish — Hindi in Roman script for spoken script and on-screen text. But if the user answers a different language for audio, subtitles, or on-screen text, use their answer exactly.
+- If the user supplies a Devanagari script or audio, keep Devanagari exactly as supplied for the parts they supplied it for — do not convert it to Roman unless they ask.
 - Keep sentences short, spoken, and phone-readable. No long paragraphs on screen.
 - Numbers, steps, and tool names are in the script, not invented later.
 

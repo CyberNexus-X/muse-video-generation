@@ -28,13 +28,22 @@ This is the most important part of this file, and it overrides any habit of aski
    - If long video: sample (~1 minute) or full video (~10 minutes)?
 3. **Length — only if it is not already fixed by the type.**
    - Reel: ~25–32s is the default range; confirm only if the user wants shorter/longer.
-4. **CTA keyword — reels only.**
+4. **Audio language — its own question, then wait.**
+   - "Audio kis language me ho?" The spoken voiceover language: e.g. Hinglish, Hindi, English.
+   - This is about what is heard, not what is written on screen.
+5. **Subtitle language — its own question, then wait.**
+   - "Subtitle kis language / script me ho?" The karaoke caption language and script: e.g. Roman Hinglish, Devanagari Hindi, English.
+   - If the user says "same as audio", use the audio language for subtitles. Do not assume this — ask, and accept "same" as a complete answer.
+6. **Video language — its own question, then wait.**
+   - "Video me on-screen text kis language me ho?" Headings, cards, labels, and steps shown in the video.
+   - This may differ from audio and subtitles. If the user says "same as subtitle" or "same as audio", use that. Do not assume this — ask, and accept "same" as a complete answer.
+7. **CTA keyword — reels only.**
    - "Comment me kya likhne ko bolna hai?" e.g. FAST, QUIZ, EMAIL, BIO.
    - This word decides the DM reply, so do not invent it.
-5. **Voiceover — "Voiceover kaisa ho?"**
+8. **Voiceover — "Voiceover kaisa ho?"**
    - AI voiceover, or will the user supply their own audio file (e.g. ElevenLabs)?
-   - If the user will supply audio, wait for that file before timing scenes. Do not time scenes to a guessed duration.
-6. **Style — only if the user has a preference.**
+   - If the user will supply audio, wait for that file before timing scenes. Do not time scenes to a guessed duration. Its language must match the audio language already answered — if it does not, ask, do not silently change it.
+9. **Style — only if the user has a preference.**
    - "Koi khaas style chahiye, ya main choose karu?"
    - If the user says "tum choose karo", choose decisively, name the style in one line, and do not ask again.
 
@@ -50,13 +59,22 @@ Do NOT send the whole list below in one message. Send one line, wait, then the n
 **User answers the topic. Muse (message 2 — only this):**
 > Reel chahiye (vertical, ~30 sec) ya long video (landscape)?
 
-**User answers the type. Muse (message 3 — only this, reels only):**
+**User answers the type. Muse (message 3 — only this):**
+> Audio kis language me ho?
+
+**User answers the audio language. Muse (message 4 — only this):**
+> Subtitle kis language / script me ho? (Roman Hinglish, Devanagari Hindi, English — ya "same as audio"?)
+
+**User answers the subtitle language. Muse (message 5 — only this):**
+> Video me on-screen text kis language me ho? (ya "same as subtitle"?)
+
+**User answers the video language. Muse (message 6 — only this, reels only):**
 > Comment me kya likhne ko bolna hai — CTA keyword kya rakhu?
 
-**User answers the CTA. Muse (message 4 — only this):**
+**User answers the CTA. Muse (message 7 — only this):**
 > Voiceover AI se karu, ya tum apni audio doge?
 
-**User answers the voiceover. Muse (message 5 — only this):**
+**User answers the voiceover. Muse (message 8 — only this):**
 > Style koi khaas chahiye, ya main choose karu?
 
 Only after all of these answers, Muse confirms the brief in one line and starts with the script.
@@ -73,7 +91,7 @@ Only after all of these answers, Muse confirms the brief in one line and starts 
 - Do NOT ask all questions together in one message, even as a short numbered list. One question at a time is the rule, not a suggestion.
 - Do NOT pick a topic yourself ("aaj AI tools par ek reel bana deta hoon") and start.
 - Do NOT write a script for a topic the user never named, even as a "demo" or "sample", unless the user explicitly asked for a sample on any topic.
-- Do NOT decide the CTA keyword, the video type, or the length silently and mention it only after the video is made.
+- Do NOT decide the CTA keyword, the video type, the length, or any language (audio, subtitle, video) silently and mention it only after the video is made. Languages are separate answers — never assume subtitle or video language is the same as audio language without asking.
 - Do NOT ask the user to re-explain the process, the specs, or the style — those are in this repo. Ask only for the choices listed above.
 - Do NOT ask the same question twice. If the user already answered it, use that answer.
 
@@ -87,6 +105,6 @@ Only when the user explicitly says, in their own words, "tum hi decide karo", "j
 
 ## After the answers come in
 
-1. Confirm the brief back in one line: topic + type + length + CTA (if reel) + voiceover.
+1. Confirm the brief back in one line: topic + type + length + audio language + subtitle language + video language + CTA (if reel) + voiceover.
 2. Then follow the normal workflow: script first (`docs/01-scripting.md`), voiceover-anchored animation, distinct template, karaoke subtitles, per-second motion, verified render, approval before publishing (`docs/05-verification-and-publishing.md`).
 3. Make the video well, according to the user's answers — not according to a topic or style you invented.
