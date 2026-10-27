@@ -53,6 +53,7 @@ Both are made as **creative animated videos**, not plain text slides, and not co
 | File | What it tells the AI |
 |---|---|
 | `AGENTS.md` | The master instruction: the exact workflow, defaults, and non-negotiable rules. Read this first. |
+| `SKILL.md` | The same workflow as a Muse skill: ask-first questions, script-first build, distinct templates, karaoke subtitles and verified publishing, in skill format. |
 | `docs/00-ask-first.md` | **Ask first, one by one:** the questions Muse MUST ask the user (topic, type, audio language, subtitle language, video language, CTA, voiceover, style) before any video — exactly one question per message, never all together. Never start on your own topic. |
 | `docs/01-scripting.md` | How to write a script: hook, structure, Hinglish, CTA. |
 | `docs/02-video-types-and-templates.md` | Reel vs long video, and why every video gets its own template. |
